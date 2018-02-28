@@ -26,16 +26,6 @@ void ascendsort(int *A, const int N,int k) {
         }
     }
 }
-//void ascendsort(int *A, const int N,int k) {//Цикл не через указатели
-//	for (int i = 0; i < N;i++) {
-//		for (int j = k; j < N-1;j++) {
-//			if (*(A+j)< *(A+j+1) ){
-//				swap(*(A + j), *(A + j + 1));
-//			}
-//
-//		}
-//	}
-//}
 
 int *give_m(int N) {
     int *A;
