@@ -41,7 +41,7 @@ public:
         double div = (other.re * other.re) + (other.im * other.im);
         Complex tmp;
         tmp.re = (re * other.re) + (im * other.im);
-        tmp.re = tmp.re / division;
+        tmp.re = tmp.re / div;
         tmp.im = (im * other.re) - (re * other.im);
         tmp.im = tmp.im / div;
         return tmp;
